@@ -1,40 +1,23 @@
-HELP.md
+# ignore build output
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# ignore IDE files
+.idea/
 *.iml
+*.iws
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# ignore log files
+logs/
+*.log
 
-### VS Code ###
-.vscode/
+# ignore temporary files
+*.tmp
+*.temp
+*.swp
+*~
 
-
-### MacOS ###
-*.DS_Store
-
-### SQL ###
+# ignore database files
 *.db
+*.sqlite
+
